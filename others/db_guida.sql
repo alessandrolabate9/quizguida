@@ -1,6 +1,12 @@
+mysql -u root -P
+
+show databases;
+use quiz;
+
+
 -- CREATE DB
-CREATE DATABASE scuolaguida;
-USE scuolaguida;
+--CREATE DATABASE scuolaguida;
+-- USE scuolaguida;
 
 -- CREATING TABLES
 CREATE TABLE categorie(
@@ -22,3 +28,4 @@ CREATE TABLE domande(
 	testo VARCHAR2,
 	id_categorie INTEGER
 );
+
