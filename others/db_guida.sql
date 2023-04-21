@@ -5,27 +5,29 @@ use quiz;
 
 
 -- CREATE DB
---CREATE DATABASE scuolaguida;
--- USE scuolaguida;
+CREATE DATABASE scuolaguida;
+USE scuolaguida;
 
 -- CREATING TABLES
 CREATE TABLE categorie(
-	id_categorie INTEGER,
-	nome VARCHAR2,
-	id_immagine VARCHAR2
+	id_categoria INTEGER,
+	nome VARCHAR(100),
+	id_immagine VARCHAR(100)
 );
 -- add immage tables?
 /* LIST OF IMAGES */
 CREATE TABLE immagini(
 	id_immagine INTEGER,
-	nome VARCHAR2,
-	link VARCHAR2
+	nome VARCHAR(100),
+	link VARCHAR(100)
 );
 
 /*LIST OF QUESTIONS*/
 CREATE TABLE domande(
-	id_domande INTEGER,
-	testo VARCHAR2,
-	id_categorie INTEGER
+	id_domanda INTEGER,
+	testo VARCHAR(100),
+	id_categoria INTEGER
 );
-
+-- ADDING ONE MORE FIELD FOR domande TABLE
+ALTER TABLE domande
+ADD COLUMN RISPOSTA VARCHAR(2);
