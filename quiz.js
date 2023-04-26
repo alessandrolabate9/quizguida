@@ -282,6 +282,14 @@ var questions = [
                                   image: "img/strisceguida.png"
                                 }                                                                                
 ];
+
+var splashScreen = document.querySelector('.splash');
+splashScreen.addEventListener('click', ()=>{
+  splashScreen.style.opacity = 0;
+  setTimeout(()=>{
+    splashScreen.classList.add('hidden')
+  }, 610)
+
   var quiz = document.getElementById('quiz');
   var limite = document.getElementById('limite');
   var questionL = document.getElementById('question');
@@ -342,7 +350,11 @@ if(contaDomande>=1){
       choicesL.appendChild(image);
     }
   }
-
+  document.addEventListener('keyup', event => {
+    if (event.code === 'Space') {
+      console.log('Space pressed')
+    }
+  })
   
   function selectAnswer(e) {
     const selectedBtn = e.target;
@@ -396,4 +408,5 @@ function startTime(){
   }
     loadQuestion();
     submit.addEventListener("click", selectAnswer);
+  });  
 }
