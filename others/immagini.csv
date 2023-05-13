@@ -57,3 +57,5 @@ id_immagine;nome;link
 55;sorpasso_camion;../img/sorpasso_camion
 56;direzione;../img/direzione
 57;passaggio_sinistra;../img/passaggio_sinistra
+58;lunghezza;../img/lunghezza
+59;precedenza2;../img/precedenza2
