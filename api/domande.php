@@ -8,7 +8,7 @@ $num = 1;
 $sql = "
 select testo
 from domande
-where id_domanda=".$num;
+where 1=1"/*id_domanda=.$num;*/;
 $records = selectDB($conn, $sql)
 print(json_encode($records));
 ?>

@@ -1,5 +1,6 @@
 window.onload = ()=> {
   //variables
+  /*
 var questions = [
   {
       question: "La fermata è consentita allo sbocco dei passi carrabili?",
@@ -282,7 +283,340 @@ var questions = [
                                   image: "img/strisceguida.png"
                                 }                                                                                
 ];
+*/
+var questions = [
+  {
+    question: 'la fermata è consentita allo sbocco dei passi carrabili',
+    choices: ['V', 'F'],
+    answer: 'V'
+  },
+{
+    question: 'Nel caso in cui la sosta è espressamente vietata da una norma del codice stradale, l‘osservanza di tale divieto non è condizionata dalla presenza di cartelli segnaletici',
+    choices: ['V', 'F'],
+    answer: 'F'
+  },
+{
+    question: ' In caso di sosta in un centro abitato, il conducente deve collocare il veicolo il più vicino possibile al margine destro della carreggiata, anche dove non esiste il marciapiede rialzato',
+    choices: ['V', 'F'],
+    answer: 'F'
+  },
+{
+    question: 'Nel caso in cui la sosta è espressamente vietata da una norma del codice della strada, l‘osservanza di tale divieto è comunque condizionata dalla presenza di cartelli segnaletici',
+    choices: ['V', 'F'],
+    answer: 'F'
+  },
+{
+    question: 'La sosta e la fermata sono sempre vietate sugli attraversamenti pedonali',
+    choices: ['V', 'F'],
+    answer: 'V'
+  },
+{
+    question: 'Su strade extraurbane principali il limite massimo di velocità è di 70 km/h per autovettura che traina caravan da 900 chilogrammi',
+    choices: ['V', 'F'],
+    answer: 'V'
+  },
+{
+    question: 'Sulla distanza di sicurezza influisce l‘efficienza del freno di servizio',
+    choices: ['V', 'F'],
+    answer: 'V'
+  },
+{
+    question: 'Il cono si usa per indicare un parcheggio riservato',
+    choices: ['V', 'F'],
+    answer: 'F'
+  },
+{
+    question: 'La sosta e la fermata sono vietate in corrispondenza dei segnali orizzontali di preselezione e lungo le corsie di canalizzazione',
+    choices: ['V', 'F'],
+    answer: 'V'
+  },
+{
+    question: 'È consentito il sorpasso in prossimità o in corrispondenza di passaggi a livello senza barriere se la circolazione è regolata da semafori',
+    choices: ['V', 'F'],
+    answer: 'V'
+  },
+{
+    question: 'I motocicli con cilindrata di almeno 150 cm3 possono circolare in autostrada',
+    choices: ['V', 'F'],
+    answer: 'V'
+  },
+{
+    question: 'L‘attraversamento pedonale è una parte della carreggiata sulla quale è vietata la fermata dei veicoli',
+    choices: ['V', 'F'],
+    answer: 'V'
+  },
+{
+    question: 'Quando la carreggiata extraurbana è occupata da ciclisti o pedoni, è consigliabile suonare il clacson prima di sorpassarli',
+    choices: ['V', 'F'],
+    answer: 'V'
+  },
+{
+    question: 'L‘isola di traffico è una zona destinata al parcheggio dei veicoli',
+    choices: ['V', 'F'],
+    answer: 'F'
+  },
+{
+    question: 'Il marciapiede è una parte della strada dove, di norma, è consentita la sosta dei ciclomotori',
+    choices: ['V', 'F'],
+    answer: 'F'
+  },
+{
+    question: 'Si definiscono ciclomotori tutti i veicoli a due ruote di cilindrata superiore a 50 cm3',
+    choices: ['V', 'F'],
+    answer: 'F'
+  },
+{
+    question: 'La carreggiata non comprende la pista ciclabile',
+    choices: ['V', 'F'],
+    answer: 'V'
+  },
+{
+    question: 'La corsia di decelerazione serve per entrare in una piazzola di sosta',
+    choices: ['V', 'F'],
+    answer: 'F'
+  },
+{
+    question: 'Fanno parte della carreggiata le corsie di emergenza delle autostrade',
+    choices: ['V', 'F'],
+    answer: 'F'
+  },
+{
+    question: 'I ciclomotori a due ruote non possono avere un motore termico di clindrata superiore a 50 cm3',
+    choices: ['V', 'F'],
+    answer: 'V'
+  },
+{
+    question: 'I tricicli a motore sono veicoli con motore di cilindrata superiore a 50 cm3',
+    choices: ['V', 'F'],
+    answer: 'V'
+  },
+{
+    question: 'I montanti interni degli autoveicoli condizionano la visibilità',
+    choices: ['V', 'F'],
+    answer: 'V'
+  },
+{
+    question: 'Le strade extraurbane principali possono essere ad un‘unica carreggiata',
+    choices: ['V', 'F'],
+    answer: 'F'
+  },
+{
+    question: 'L‘autocaravan non è un rimorchio ',
+    choices: ['V', 'F'],
+    answer: 'V'
+  },
+{
+    question: 'Fuori dai centri abitati, su una stessa corsia possono circolare affiancati due ciclomotiri',
+    choices: ['V', 'F'],
+    answer: 'F'
+  },
+{
+    question: 'Le biciclette con pedala assistita, dotate di motore elettrico ausiliario di potenza massima fino a 0,25 kw, sono definite ciclomotori',
+    choices: ['V', 'F'],
+    answer: 'F'
+  },
+{
+    question: 'Il passaggio a livello è un passo carrabile ',
+    choices: ['V', 'F'],
+    answer: 'F'
+  },
+{
+    question: 'Fanno parte della carreggiata le corsie di emergenza delle autostrade',
+    choices: ['V', 'F'],
+    answer: 'F'
+  },
+{
+    question: 'Su una strada ricoperta da brecciolino il conducente può circolare a velocità sostenuta',
+    choices: ['V', 'F'],
+    answer: 'F'
+  },
+{
+    question: 'La corsia può essere a doppio senso di circolazione',
+    choices: ['V', 'F'],
+    answer: 'F'
+  },
+{
+    question: 'L‘attraversamento pedonale è una parte della carreggiata vietata al transito dei veicoli',
+    choices: ['V', 'F'],
+    answer: 'F'
+  },
+{
+    question: 'Nelle aree pedonali possono transitare gli autoveicoli dei vigili del fuoco con luce lampeggiante blu e sirena in funzione',
+    choices: ['V', 'F'],
+    answer: 'V'
+  },
+{
+    question: 'I quadricicli non leggeri, ai fini della circolazione, sono equiparati ai ciclomotori',
+    choices: ['V', 'F'],
+    answer: 'F'
+  },
+{
+    question: 'Durante la circolazione, gli autocarri di massa complessiva a pieno carico inferiore o uguale a 3,5 tonnellate devono essere segnalati posteriormente con pannelli retroriflettenti gialli e rossi',
+    choices: ['V', 'F'],
+    answer: 'F'
+  },
+{
+    question: 'Bisogna usare particolare prudenza nei confronti dei conducenti che hanno conseguito la patente di guida in uno stato estero',
+    choices: ['V', 'F'],
+    answer: 'F'
+  },
+{
+    question: 'Sulle strade extraurbane principali è consentito circolare alla velocità massima di 130 km/h',
+    choices: ['V', 'F'],
+    answer: 'F'
+  },
+{
+    question: 'L‘isola di traffico serve per il transito dei pedoni',
+    choices: ['V', 'F'],
+    answer: 'F'
+  },
+{
+    question: 'Si definisce autovettura il veicolo blindato e attrezzato per il trasporto di valori',
+    choices: ['V', 'F'],
+    answer: 'F'
+  },
+{
+    question: 'Il passaggio a livello è un cavalcavia ferroviario o tranviario',
+    choices: ['V', 'F'],
+    answer: 'F'
+  },
+{
+    question: 'Con la patente di categoria A si possono guidare tutte le macchine agricole',
+    choices: ['V', 'F'],
+    answer: 'F'
+  },
+{
+    question: 'Bisogna lasciare liberi gli ingressi delle abitazioni private in caso di formazione di code di veicoli',
+    choices: ['V', 'F'],
+    answer: 'F'
+  },
+{
+    question: 'Il passaggio a livello è caratterizzato dalla presenza di un attraversamento autostradale',
+    choices: ['V', 'F'],
+    answer: 'F'
+  },
+{
+    question: 'Quando vi sono bambini fermi al semaforo bisogna usare prudenza, perchè‚ potrebbero scendere dal marciapiede, invadendo la carreggiata, quando ancora per loro il semaforo è disposto al rosso',
+    choices: ['V', 'F'],
+    answer: 'V'
+  },
+{
+    question: 'L‘autostrada non ha incroci a raso che l‘attraversano',
+    choices: ['V', 'F'],
+    answer: 'V'
+  },
+{
+    question: 'La corsia di accelerazione serve per uscire da una piazzola di sosta',
+    choices: ['V', 'F'],
+    answer: 'F'
+  },
+{
+    question: 'Fanno parte della carreggiata le corsie di emergenza delle autostrade',
+    choices: ['V', 'F'],
+    answer: 'F'
+  },
+{
+    question: 'Bisogna lasciare liberi i sottovia in caso di traffico intenso',
+    choices: ['V', 'F'],
+    answer: 'F'
+  },
+{
+    question: 'Avvicinandosi ad un passaggio a livello con luci rosse accese e semibarriera ancora alzata, bisogna fermarsi in corrispondenza del terzo pannello distanziometrico',
+    choices: ['V', 'F'],
+    answer: 'F'
+  },
+{
+    question: 'Il conducente che intende sorpassare ciclisti o pedoni che occupano la carreggiata deve mantenere una distanza laterale di almeno 2 metri',
+    choices: ['V', 'F'],
+    answer: 'F'
+  },
+{
+    question: 'Per evitare rumori fastidiosi, occorre chiudere con forza le portiere in modo da non doverle richiudere',
+    choices: ['V', 'F'],
+    answer: 'F'
+  },
+{
+    question: 'Per diminuire l‘inquinamento dell‘aria provocato dai veicoli, bisogna controllare spesso la frizione e il differenziale',
+    choices: ['V', 'F'],
+    answer: 'F'
+  },
+{
+    question: 'È consentito l‘uso intermittente dei proiettori profondità per segnalare al veicolo che precede, anche all‘interno dei centri abitati, l‘intenzione di sorpassare',
+    choices: ['V', 'F'],
+    answer: 'V'
+  },
+{
+    question: 'La luce gialla lampeggiante, del tipo C in figura, indica che svoltando a destra i veicoli devono dare la precedenza alle biciclette',
+    choices: ['V', 'F'],
+    answer: 'V'
+  },
+{
+    question: 'Il vigile disposto con le braccia ad angolo retto come in figura consente di svoltare a destra ai veicoli che arrivano dalla sua destra',
+    choices: ['V', 'F'],
+    answer: 'F'
+  },
+{
+    question: 'Quando è accesa la luce verde del semaforo in figura, il conducente che svolta a sinistra ha la precedenza sui veicoli che provengono di fronte',
+    choices: ['V', 'F'],
+    answer: 'F'
+  },
+{
+    question: 'La luce gialla lampeggiante, del tipo B in figura, indica la presenza di un viale pedonale',
+    choices: ['V', 'F'],
+    answer: 'F'
+  },
+{
+    question: 'Le luci rosse accese lampeggianti in figura obbligano ad arrestarsi all‘accesso di un pontile d‘imbarco di navi traghetto',
+    choices: ['V', 'F'],
+    answer: 'V'
+  },
+{
+    question: 'Il segnale raffigurato indica che nelle vicinanze vi è un‘area di sosta per autoveicoli',
+    choices: ['V', 'F'],
+    answer: 'F'
+  },
+{
+    question: 'Il segnale raffigurato consente la svolta a destra ',
+    choices: ['V', 'F'],
+    answer: 'V'
+  },
+{
+    question: 'Il segnale raffigurato, se posto sul bordo del marciapiede, indica la fermata di uno scuolabus ',
+    choices: ['V', 'F'],
+    answer: 'V'
+  },
+{
+    question: 'Il segnale raffigurato si trova all‘ingresso di un‘autostrada',
+    choices: ['V', 'F'],
+    answer: 'F'
+  },
+{
+    question: 'Il semaforo in figura è valido solo per i veicoli che marciano su rotaie (tram, treni)',
+    choices: ['V', 'F'],
+    answer: 'F'
+  },
+{
+    question: 'Quando il vigile si dispone di profilo con le braccia aperte come in figura si può svoltare a destra se si proviene dalla sua destra o dalla sua sinistra',
+    choices: ['V', 'F'],
+    answer: 'V'
+  },
+{
+    question: 'Il vigile disposto con le braccia ad angolo retto come in figura consente di proseguire diritto ai veicoli che arrivano dalla sua sinistra',
+    choices: ['V', 'F'],
+    answer: 'V'
+  },
+{
+    question: 'Il semaforo di corsie reversibili in figura indica la corsia per la sosta di emergenza ',
+    choices: ['V', 'F'],
+    answer: 'F'
+  },
+{
+    question: 'Chi guida autoveicoli deve esibire, a richiesta degli agenti, il segnale mobile di pericolo (triangolo)',
+    choices: ['V', 'F'],
+    answer: 'V'
+  },
 
+];
 var splashScreen = document.querySelector('.splash');
 splashScreen.addEventListener('click', ()=>{
   splashScreen.style.opacity = 0;
@@ -297,6 +631,7 @@ splashScreen.addEventListener('click', ()=>{
   var submit = document.getElementById('submit');
   var scoreL = document.getElementById('result');
   var retake = document.getElementById('retake');
+  var mistaken = document.getElementById('mistake');
     //timing variables
   var interval;
   var second = 00;
@@ -355,15 +690,17 @@ if(contaDomande>=1){
       console.log('Space pressed')
     }
   })
-  
+  // handle select Answer
   function selectAnswer(e) {
     const selectedBtn = e.target;
     const selectedAnswer = selectedBtn.value;
     const correctAnswer = questions[currentQuestion].answer;
-  
+//handle correct Answer  
     if (selectedAnswer === correctAnswer) {
       score++;
-    }
+    }//else{
+        
+    //}
 
     contaDomande++;
     limite.innerHTML = contaDomande + ' di 30';
