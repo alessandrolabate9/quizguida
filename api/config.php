@@ -1,9 +1,9 @@
 <?php
 include("../libraries/dblibrary.php");
 
-$server = 'localhost';
+$server = '127.0.0.1';
 $user = 'root';
-$passw = '';
+$passw = 'root';
 $database = 'scuolaguida';
 
 $conn = openDB($server, $user, $passw, $database);

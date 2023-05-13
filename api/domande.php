@@ -4,6 +4,7 @@
 header("Content-type: application/json");
 include('config.php');
 
+$numero=$_GET['numero'];
 $num = 1;
 $sql = "
 select testo
