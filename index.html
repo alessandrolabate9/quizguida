@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simulazione Guida - A e B</title>
+	<link rel="stylesheet" href="quiz.css">
+	<link rel="icon" type="image/x-icon" href="img/favicon.png">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+	<script src="quiz.js"></script>
+</head>
+<body>
+	<div id="quiz">
+	<h1>Guida Game (light v.)</h1>
+	<!--<span class="material-symbols-outlined">
+		translate
+		</span>-->
+	<p class="adj" id="limite"></p>
+	<p class="adj" id="timer"><span id="min">00</span>:<span id="sec">00</span></p>
+	<div id="question"></div>
+	<br/>
+	<div id="bil-side" style="display:none"></div>
+	<div id="choices"></div>
+	<button id="submit">next</button>
+	<p id="result"></p>
+	<br/>
+	<br/>
+		<label for="selectOption">Select an option:</label>
+		<select id="selectOption">
+		  <option selected='selected' value="italiano">ITA</option>
+		  <option value="bilingual">ENG</option>
+		</select>
+	<!--
+
+<label class="switch">
+		<input type="checkbox" id="togBtn">
+		<div class="slider round">
+			<span language='italian' class="on">IT</span>
+			<span language='it-eng' class="off">ENG</span>
+		</div>
+	</label>
+-->
+	<ul class="nav-items">
+	<button id="retake" style='display:none'>Retake</button></div>
+	<footer style="text-align:right">ALX &copy; 2023-24</footer>
+	</div>
+	<div class="splash">
+		<h1 class="splash-header">Are u Ready?</h1>
+	</div>
+</body>
+</html>
