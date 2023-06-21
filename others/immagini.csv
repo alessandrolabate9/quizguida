@@ -1,61 +1,61 @@
-id_immagine;nome;link
-0;sfondo;../img/sfondo
-1;trio_giallo;../img/trio_giallo
-2;rosso_acustico;../img/rosso_acustico
-3;vigile1;../img/vigile1
-4;vigile1;../img/vigile1
-5;semaforo;../img/semaforo
-6;corsia2;../img/corsia2
-7;tram_semaforo;../img/tram_semaforo
-8;indicazione;../img/indicazione
-9;rifornimento;../img/rifornimento
-10;bimbi;../img/bimbi
-11;come_svoltare;../img/come_svoltare
-12;incidente;../img/incidente
-13;mega_curva;../img/mega_curva
-14;curva_dx;../img/curva_dx
-15;la_barra_rossa;../img/la_barra_rossa
-16;stelvio;../img/stelvio
-17;sessa;../img/sessa
-18;extra_princ;../img/extra_princ
-19;ponte;../img/ponte
-20;dosso;../img/dosso
-21;svoltadx;../img/svoltadx
-22;ics_pass_livello;../img/ics_pass_livello
-23;strisceguida;../img/strisceguida
-24;corsia;../img/corsia
-25;prec0;../img/prec0
-26;strada0;../img/strada0
-27;strada1;../img/strada1
-28;divieto_sosta;../img/divieto_sosta
-29;persone_invalide;../img/persone_invalide
-30;fine_precedenza;../img/fine_precedenza
-31;precedenza1;../img/precedenza1
-32;precedenza_sensi;../img/precedenza_sensi
-33;divieto_transito;../img/divieto_transito
-34;fine_prescrizione;../img/fine_prescrizione
-35;divieto_sorpasso;../img/divieto_sorpasso
-36;passaggio_destra;../img/passaggio_destra
-37;alt_stazione;../img/alt_stazione
-38;passaggio_dx_snx;../img/passaggio_dx_snx
-39;direzione_snx;../img/direzione_snx
-40;direzione_dx_snx;../img/direzione_dx_snx
-41;delineatori1;../img/delineatori1
-42;pass_destra_ostacolo;../img/pass_destra_ostacolo
-43;delineatori;../img/delineatori
-44;semaforo1;../img/semaforo1
-45;curva_snx;../img/curva_snx
-46;svolta_destra;../img/svolta_destra
-47;pericolo_curva;../img/pericolo_curva
-48;binari_manovra;../img/binari_manovra
-49;sgombraneve;../img/sgombraneve
-50;escavatori;../img/escavatori
-51;sorpasso;../img/sorpasso
-52;integrazione;../img/integrazione
-53;integrazione1;../img/integrazione1
-54;andamento_strada;../img/andamento_strada
-55;sorpasso_camion;../img/sorpasso_camion
-56;direzione;../img/direzione
-57;passaggio_sinistra;../img/passaggio_sinistra
-58;lunghezza;../img/lunghezza
-59;precedenza2;../img/precedenza2
+id_immagine;nome;link;;;
+0;sfondo;../img/sfondo;;;"INSERT INTO immagini (id_immagine, nome, link) VALUES(0,'sfondo','../img/sfondo');COMMIT;"
+1;trio_giallo;../img/trio_giallo;;;"INSERT INTO immagini (id_immagine, nome, link) VALUES(1,'trio_giallo','../img/trio_giallo');COMMIT;"
+2;rosso_acustico;../img/rosso_acustico;;;"INSERT INTO immagini (id_immagine, nome, link) VALUES(2,'rosso_acustico','../img/rosso_acustico');COMMIT;"
+3;vigile1;../img/vigile1;;;"INSERT INTO immagini (id_immagine, nome, link) VALUES(3,'vigile1','../img/vigile1');COMMIT;"
+4;vigile1;../img/vigile1;;;"INSERT INTO immagini (id_immagine, nome, link) VALUES(4,'vigile1','../img/vigile1');COMMIT;"
+5;semaforo;../img/semaforo;;;"INSERT INTO immagini (id_immagine, nome, link) VALUES(5,'semaforo','../img/semaforo');COMMIT;"
+6;corsia2;../img/corsia2;;;"INSERT INTO immagini (id_immagine, nome, link) VALUES(6,'corsia2','../img/corsia2');COMMIT;"
+7;tram_semaforo;../img/tram_semaforo;;;"INSERT INTO immagini (id_immagine, nome, link) VALUES(7,'tram_semaforo','../img/tram_semaforo');COMMIT;"
+8;indicazione;../img/indicazione;;;"INSERT INTO immagini (id_immagine, nome, link) VALUES(8,'indicazione','../img/indicazione');COMMIT;"
+9;rifornimento;../img/rifornimento;;;"INSERT INTO immagini (id_immagine, nome, link) VALUES(9,'rifornimento','../img/rifornimento');COMMIT;"
+10;bimbi;../img/bimbi;;;"INSERT INTO immagini (id_immagine, nome, link) VALUES(10,'bimbi','../img/bimbi');COMMIT;"
+11;come_svoltare;../img/come_svoltare;;;"INSERT INTO immagini (id_immagine, nome, link) VALUES(11,'come_svoltare','../img/come_svoltare');COMMIT;"
+12;incidente;../img/incidente;;;"INSERT INTO immagini (id_immagine, nome, link) VALUES(12,'incidente','../img/incidente');COMMIT;"
+13;mega_curva;../img/mega_curva;;;"INSERT INTO immagini (id_immagine, nome, link) VALUES(13,'mega_curva','../img/mega_curva');COMMIT;"
+14;curva_dx;../img/curva_dx;;;"INSERT INTO immagini (id_immagine, nome, link) VALUES(14,'curva_dx','../img/curva_dx');COMMIT;"
+15;la_barra_rossa;../img/la_barra_rossa;;;"INSERT INTO immagini (id_immagine, nome, link) VALUES(15,'la_barra_rossa','../img/la_barra_rossa');COMMIT;"
+16;stelvio;../img/stelvio;;;"INSERT INTO immagini (id_immagine, nome, link) VALUES(16,'stelvio','../img/stelvio');COMMIT;"
+17;sessa;../img/sessa;;;"INSERT INTO immagini (id_immagine, nome, link) VALUES(17,'sessa','../img/sessa');COMMIT;"
+18;extra_princ;../img/extra_princ;;;"INSERT INTO immagini (id_immagine, nome, link) VALUES(18,'extra_princ','../img/extra_princ');COMMIT;"
+19;ponte;../img/ponte;;;"INSERT INTO immagini (id_immagine, nome, link) VALUES(19,'ponte','../img/ponte');COMMIT;"
+20;dosso;../img/dosso;;;"INSERT INTO immagini (id_immagine, nome, link) VALUES(20,'dosso','../img/dosso');COMMIT;"
+21;svoltadx;../img/svoltadx;;;"INSERT INTO immagini (id_immagine, nome, link) VALUES(21,'svoltadx','../img/svoltadx');COMMIT;"
+22;ics_pass_livello;../img/ics_pass_livello;;;"INSERT INTO immagini (id_immagine, nome, link) VALUES(22,'ics_pass_livello','../img/ics_pass_livello');COMMIT;"
+23;strisceguida;../img/strisceguida;;;"INSERT INTO immagini (id_immagine, nome, link) VALUES(23,'strisceguida','../img/strisceguida');COMMIT;"
+24;corsia;../img/corsia;;;"INSERT INTO immagini (id_immagine, nome, link) VALUES(24,'corsia','../img/corsia');COMMIT;"
+25;prec0;../img/prec0;;;"INSERT INTO immagini (id_immagine, nome, link) VALUES(25,'prec0','../img/prec0');COMMIT;"
+26;strada0;../img/strada0;;;"INSERT INTO immagini (id_immagine, nome, link) VALUES(26,'strada0','../img/strada0');COMMIT;"
+27;strada1;../img/strada1;;;"INSERT INTO immagini (id_immagine, nome, link) VALUES(27,'strada1','../img/strada1');COMMIT;"
+28;divieto_sosta;../img/divieto_sosta;;;"INSERT INTO immagini (id_immagine, nome, link) VALUES(28,'divieto_sosta','../img/divieto_sosta');COMMIT;"
+29;persone_invalide;../img/persone_invalide;;;"INSERT INTO immagini (id_immagine, nome, link) VALUES(29,'persone_invalide','../img/persone_invalide');COMMIT;"
+30;fine_precedenza;../img/fine_precedenza;;;"INSERT INTO immagini (id_immagine, nome, link) VALUES(30,'fine_precedenza','../img/fine_precedenza');COMMIT;"
+31;precedenza1;../img/precedenza1;;;"INSERT INTO immagini (id_immagine, nome, link) VALUES(31,'precedenza1','../img/precedenza1');COMMIT;"
+32;precedenza_sensi;../img/precedenza_sensi;;;"INSERT INTO immagini (id_immagine, nome, link) VALUES(32,'precedenza_sensi','../img/precedenza_sensi');COMMIT;"
+33;divieto_transito;../img/divieto_transito;;;"INSERT INTO immagini (id_immagine, nome, link) VALUES(33,'divieto_transito','../img/divieto_transito');COMMIT;"
+34;fine_prescrizione;../img/fine_prescrizione;;;"INSERT INTO immagini (id_immagine, nome, link) VALUES(34,'fine_prescrizione','../img/fine_prescrizione');COMMIT;"
+35;divieto_sorpasso;../img/divieto_sorpasso;;;"INSERT INTO immagini (id_immagine, nome, link) VALUES(35,'divieto_sorpasso','../img/divieto_sorpasso');COMMIT;"
+36;passaggio_destra;../img/passaggio_destra;;;"INSERT INTO immagini (id_immagine, nome, link) VALUES(36,'passaggio_destra','../img/passaggio_destra');COMMIT;"
+37;alt_stazione;../img/alt_stazione;;;"INSERT INTO immagini (id_immagine, nome, link) VALUES(37,'alt_stazione','../img/alt_stazione');COMMIT;"
+38;passaggio_dx_snx;../img/passaggio_dx_snx;;;"INSERT INTO immagini (id_immagine, nome, link) VALUES(38,'passaggio_dx_snx','../img/passaggio_dx_snx');COMMIT;"
+39;direzione_snx;../img/direzione_snx;;;"INSERT INTO immagini (id_immagine, nome, link) VALUES(39,'direzione_snx','../img/direzione_snx');COMMIT;"
+40;direzione_dx_snx;../img/direzione_dx_snx;;;"INSERT INTO immagini (id_immagine, nome, link) VALUES(40,'direzione_dx_snx','../img/direzione_dx_snx');COMMIT;"
+41;delineatori1;../img/delineatori1;;;"INSERT INTO immagini (id_immagine, nome, link) VALUES(41,'delineatori1','../img/delineatori1');COMMIT;"
+42;pass_destra_ostacolo;../img/pass_destra_ostacolo;;;"INSERT INTO immagini (id_immagine, nome, link) VALUES(42,'pass_destra_ostacolo','../img/pass_destra_ostacolo');COMMIT;"
+43;delineatori;../img/delineatori;;;"INSERT INTO immagini (id_immagine, nome, link) VALUES(43,'delineatori','../img/delineatori');COMMIT;"
+44;semaforo1;../img/semaforo1;;;"INSERT INTO immagini (id_immagine, nome, link) VALUES(44,'semaforo1','../img/semaforo1');COMMIT;"
+45;curva_snx;../img/curva_snx;;;"INSERT INTO immagini (id_immagine, nome, link) VALUES(45,'curva_snx','../img/curva_snx');COMMIT;"
+46;svolta_destra;../img/svolta_destra;;;"INSERT INTO immagini (id_immagine, nome, link) VALUES(46,'svolta_destra','../img/svolta_destra');COMMIT;"
+47;pericolo_curva;../img/pericolo_curva;;;"INSERT INTO immagini (id_immagine, nome, link) VALUES(47,'pericolo_curva','../img/pericolo_curva');COMMIT;"
+48;binari_manovra;../img/binari_manovra;;;"INSERT INTO immagini (id_immagine, nome, link) VALUES(48,'binari_manovra','../img/binari_manovra');COMMIT;"
+49;sgombraneve;../img/sgombraneve;;;"INSERT INTO immagini (id_immagine, nome, link) VALUES(49,'sgombraneve','../img/sgombraneve');COMMIT;"
+50;escavatori;../img/escavatori;;;"INSERT INTO immagini (id_immagine, nome, link) VALUES(50,'escavatori','../img/escavatori');COMMIT;"
+51;sorpasso;../img/sorpasso;;;"INSERT INTO immagini (id_immagine, nome, link) VALUES(51,'sorpasso','../img/sorpasso');COMMIT;"
+52;integrazione;../img/integrazione;;;"INSERT INTO immagini (id_immagine, nome, link) VALUES(52,'integrazione','../img/integrazione');COMMIT;"
+53;integrazione1;../img/integrazione1;;;"INSERT INTO immagini (id_immagine, nome, link) VALUES(53,'integrazione1','../img/integrazione1');COMMIT;"
+54;andamento_strada;../img/andamento_strada;;;"INSERT INTO immagini (id_immagine, nome, link) VALUES(54,'andamento_strada','../img/andamento_strada');COMMIT;"
+55;sorpasso_camion;../img/sorpasso_camion;;;"INSERT INTO immagini (id_immagine, nome, link) VALUES(55,'sorpasso_camion','../img/sorpasso_camion');COMMIT;"
+56;direzione;../img/direzione;;;"INSERT INTO immagini (id_immagine, nome, link) VALUES(56,'direzione','../img/direzione');COMMIT;"
+57;passaggio_sinistra;../img/passaggio_sinistra;;;"INSERT INTO immagini (id_immagine, nome, link) VALUES(57,'passaggio_sinistra','../img/passaggio_sinistra');COMMIT;"
+58;lunghezza;../img/lunghezza;;;"INSERT INTO immagini (id_immagine, nome, link) VALUES(58,'lunghezza','../img/lunghezza');COMMIT;"
+59;precedenza2;../img/precedenza2;;;"INSERT INTO immagini (id_immagine, nome, link) VALUES(59,'precedenza2','../img/precedenza2');COMMIT;"
