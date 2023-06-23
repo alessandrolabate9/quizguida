@@ -1,0 +1,15 @@
+{
+    "quiz": {
+        "sport": {
+            "q1": {
+                "question": "Il segnale raffigurato si trova all‘ingresso di un‘autostrada?",
+                "answer": "F"
+            }
+        },
+        "maths": {
+            "q1": {
+                "question": "5 + 7 = ?",
+                "answer": "12"
+            }
+        }
+}
